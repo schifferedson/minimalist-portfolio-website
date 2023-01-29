@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Minimalist Portfolio</title>
+</head>
+<body>
+  <header class="container">
+    <nav class="navBar">
+      <img src="./images/logo.svg" alt="">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+      <img src="./images/icons/hamburger.svg" alt="" class="menu-hamburguer">
+    </nav>
+  </header>
+  <main class="container">
+    <section class="presentation">
+      <picture>
+        <source media="(max-width: 768px)" srcset="./images/homepage/tablet/image-homepage-hero.jpg">
+        <source media="(max-width: 375px)" srcset="./images/homepage/mobile/image-homepage-hero.jpg">
+        <img src="./images/homepage/desktop/image-homepage-hero.jpg" alt="">
+      </picture>
+      <div class="presentation--text">
+        <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+        <button><div><img src="./images/icons/down-arrows.svg" alt=""></div><a href="#">About Me</a></button>
+      </div>
+    </section>
+    <section class="about">
+      <picture>
+        <source media="(max-width: 680px)" srcset="./images/homepage/mobile/image-homepage-profile.jpg">
+        <source media="(max-width: 768px)" srcset="./images/homepage/tablet/image-homepage-profile.jpg">
+        <img src="./images/homepage/desktop/image-homepage-profile.jpg" alt="">
+      </picture>
+      <div class="about--text">
+        <h2>About Me</h2>
+        <p>I’m a junior front-end developer looking for a new role in an exciting company. 
+          I focus on writing accessible HTML, using modern CSS practices and writing clean 
+          JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to 
+          whatever tools are required. I’m based in London, UK, but I’m happy working remotely 
+          and have experience in remote teams. When I’m not coding, you’ll find me outdoors. 
+          I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
+          you to check out my work. <button class="bt__transparent">Go to Portfolio</button></p>
+      </div>
+    </section>
+    <section class="Interested">
+      <div class="interested--item">
+        <h2>Interested in doing a project together?</h2>
+        <hr>
+        <button class="bt__transparent"><a href="#">Contact Me</a></button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <nav class="container footer--nav">
+      <ul>
+        <li><img src="./images/logo.svg" alt=""></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contect me</a></li>
+      </ul>
+      <ul>
+        <li><a href="#"><img src="./images/icons/github.svg" alt=""></a></li>
+        <li><a href="#"><img src="./images/icons/twitter.svg" alt=""></a></li>
+        <li><a href="#"><img src="./images/icons/linkedin.svg" alt=""></a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
